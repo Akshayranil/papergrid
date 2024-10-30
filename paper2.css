@@ -1,0 +1,128 @@
+/* global class names */
+.pt-90{
+    margin-top: 90px;
+}
+
+
+.image1{
+    width: 155px;
+    height: 23px;
+    
+}
+.img{
+    margin-left: 76px;
+}
+
+#cards{
+    width: 25rem;
+    height: 25rem;
+}
+.row{
+    display: flex;
+    /*justify-content: center; */
+}
+#section-one .row div{
+    height: 260px;
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+.images div{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.images img{
+    /* height: 360px; */
+    width: 75%;
+    
+}
+
+
+/* section two  */
+.section-two-img{
+    width: 100%;
+    max-width: 393px;
+    height: 100%;
+    max-height: 527px;
+}
+
+
+
+
+
+@media (max-width:767px)
+
+{
+    .last-text{
+        text-align: center;
+        height: 377px;
+
+    }
+   
+}
+
+@media (max-width:1024px)
+{
+   .images div{
+       height: 300px;
+   }
+}
+
+@media (max-width:768px)
+{
+    .images div{
+        height:280px;
+    }
+}
+
+@media (max-width:425px)
+{
+    .images div{
+        height:180px;
+    }
+}
+@media (max-width:320px)
+{
+    .images div{
+        height:120px;
+    }
+}
+
+@media (max-width:768px) 
+{
+    .image2 img{
+        width: 83%;
+        margin-left: 39px;
+}
+}
+@media (max-width:425px)
+
+{
+    .last-text{
+        text-align: center;
+        margin-top: 228px;
+
+    }
+   
+}
+@media (max-width:375px) 
+{
+    .image2 img{
+        width: 70%;
+    margin-left: 58px;
+    }
+}
+@media (max-width:1440px) 
+{
+    .image2 img{
+        width: 48%;
+        margin-left: 187px;
+    }
+}
